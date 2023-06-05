@@ -1,0 +1,42 @@
+.list-item {
+}
+
+.lan-button {
+  display: flex;
+  align-items: center;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .lan-button {
+    display: flex;
+    align-items: center;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.activeCss {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 16px;
+}
